@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: expense-handler
+  datasource:
+    url: jdbc:postgresql://localhost:5432/expense
+    username: postgres
+    password: root
+  liquibase:
+    change-log: classpath:/db/changelog/master.xml
